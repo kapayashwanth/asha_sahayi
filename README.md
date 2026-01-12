@@ -91,7 +91,8 @@ ASHA workers work in field conditions where:
 ---
 # Database Entity Relationship Diagram 
 
-![er diagram](ER Diagram.png)
+![ER Diagram](https://raw.githubusercontent.com/kapayashwanth/asha_sahayi/main/ER_diagram.png)
+
 ---
 
 ## 🧱 Tech Stack
@@ -143,6 +144,7 @@ asha-sahayi/
 │   ├─ Ethical AI & data privacy statement
 │
 └── README.md
+
 
 
 
