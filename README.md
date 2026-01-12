@@ -4,6 +4,29 @@ ASHA Sahayi is a **Telegram-based assistant** designed to support **ASHA (Accred
 
 ---
 
+---
+
+# Ethical AI Statement – ASHA Sahayi
+
+- ASHA Sahayi functions only as a **decision-support tool** and does not replace qualified medical professionals.
+
+- The AI provides **general health guidance** and consistently recommends referral to **Primary Health Centres (PHCs)** for serious or unclear cases.
+
+- The system **does not provide medical diagnoses or prescribe medications**.
+
+- Only **minimal, non-sensitive data** is collected for patient visit logging; **no personally identifiable patient information** is stored.
+
+- All data is stored securely in a **managed database** with restricted access and **no third-party data sharing**.
+
+- **Multilingual support** ensures inclusive access while maintaining consistent and responsible medical guidance.
+
+- **AI interactions are logged** for transparency and system improvement, without compromising user privacy.
+
+- **Human oversight** and ethical AI principles such as **safety, accountability, and transparency** are strictly followed.
+
+
+---
+
 ## 🎯 Problem Statement
 
 ASHA workers work in field conditions where:
@@ -112,3 +135,4 @@ asha-sahayi/
 │   ├─ Ethical AI & data privacy statement
 │
 └── README.md
+
