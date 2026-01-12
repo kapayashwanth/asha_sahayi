@@ -4,7 +4,6 @@ ASHA Sahayi is a **Telegram-based assistant** designed to support **ASHA (Accred
 
 ---
 
----
 
 # Ethical AI Statement – ASHA Sahayi
 
@@ -135,4 +134,5 @@ asha-sahayi/
 │   ├─ Ethical AI & data privacy statement
 │
 └── README.md
+
 
