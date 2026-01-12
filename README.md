@@ -4,6 +4,11 @@ ASHA Sahayi is a **Telegram-based assistant** designed to support **ASHA (Accred
 
 ---
 
+# Live Demo Video
+https://drive.google.com/file/d/14VCADMfyc_NLMvYyHenLBWQ_EOW7Kihe/view?usp=sharing
+
+
+---
 
 # Ethical AI Statement – ASHA Sahayi
 
@@ -84,6 +89,10 @@ ASHA workers work in field conditions where:
 - No patient identity exposure
 
 ---
+# Database Entity Relationship Diagram 
+
+![er diagram](ER Diagram.png)
+---
 
 ## 🧱 Tech Stack
 
@@ -134,5 +143,6 @@ asha-sahayi/
 │   ├─ Ethical AI & data privacy statement
 │
 └── README.md
+
 
 
