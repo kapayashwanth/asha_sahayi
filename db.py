@@ -3,14 +3,17 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-
 def get_db():
     return mysql.connector.connect(
         host=os.getenv("MYSQL_HOST"),
+        port=int(os.getenv("MYSQL_PORT", 3306)),
         user=os.getenv("MYSQL_USER"),
         password=os.getenv("MYSQL_PASSWORD"),
-        database=os.getenv("MYSQL_DB")
+        database=os.getenv("MYSQL_DB"),
+        connection_timeout=10
     )
+
+
 
 # ---------- ASHA ----------
 def get_or_create_asha(telegram_id):
@@ -108,3 +111,4 @@ def log_ai_query(asha_id, query, response):
     """, (asha_id, query, response[:200]))
     db.commit()
     db.close()
+
