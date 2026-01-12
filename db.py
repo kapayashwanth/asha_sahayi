@@ -26,6 +26,27 @@ def get_db():
 
 
 # ---------------- ASHA WORKER ----------------
+def is_verified(telegram_id):
+    """
+    Returns True if ASHA worker is verified, else False
+    """
+    db = get_db()
+    cursor = db.cursor(dictionary=True)
+
+    cursor.execute(
+        "SELECT verified FROM asha_workers WHERE telegram_id = %s",
+        (telegram_id,)
+    )
+
+    row = cursor.fetchone()
+
+    cursor.close()
+    db.close()
+
+    if row:
+        return bool(row["verified"])
+    return False
+
 
 def get_or_create_asha(telegram_id):
     db = get_db()
@@ -128,3 +149,4 @@ def log_ai_query(asha_db_id, query_text, response_summary):
 
     cursor.close()
     db.close()
+
